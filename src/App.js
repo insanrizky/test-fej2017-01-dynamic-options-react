@@ -6,8 +6,7 @@ class App extends Component {
     constructor(props){
         super(props)
         this.state = {
-            children: ["Andana", "Warih"],
-            temp: ""
+            children: []
         }
 
         this.addChild       = this.addChild.bind(this)
